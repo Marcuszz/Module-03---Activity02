@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+
+#text-color{
+    color: aqua;
+}
+
+.textClass{
+    color: goldenrod;
+}
+
+div.seconddiv > p{
+    background-color: green;
+}
+
+hgroup:hover {
+    background-color: burlywood;
+}
+
+section:hover {
+    background-color: lightgreen;
+}
+
+.texClass{
+    color: navy;
+}
+

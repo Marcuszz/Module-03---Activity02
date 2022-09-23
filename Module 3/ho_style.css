@@ -1,0 +1,57 @@
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    padding: 20px;
+    color: crimson;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    overflow: hidden;
+
+    position: sticky;
+    top: 0;
+}
+.active {
+    background-color: blue;
+    color: wheat;
+}
+li a:hover:not(.active){
+    background-color: burlywood;
+}
+
+body{
+    background-color: gray;
+}
+
+#text-color{
+    color: aqua;
+}
+
+.textClass{
+    color: goldenrod;
+}
+
+div.seconddiv > p{
+    background-color: green;
+}
+
+hgroup:hover {
+    background-color: burlywood;
+}
+
+section:hover {
+    background-color: lightgreen;
+}
+
+.texClass{
+    color: navy;
+}
